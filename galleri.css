@@ -2,7 +2,19 @@ body {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: whitesmoke;
-    background-image: url(pizza.jpg);
+    background-image: url(galleribak.jpg);
     background-size: cover;
     background-repeat: repeat;
+    
   }
+
+.peepee {
+    border: black 3px solid;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    font-size: 1vw;
+}
