@@ -13,31 +13,25 @@ body {
 }
 
 .box {
-  width: 65vw;
-  float: right;
+  width: 100%;
+  height: 100%;
   background-color: black;
-}
-
-.wd {
-  grid-area: main1;
-  background-color: black;
-  opacity: 0.9;
+  margin-top: 1vw;
+  color: antiquewhite;
   text-align: center;
-  z-index: 2;
+  opacity: 0.7;
+}
+.box h1 {
+  margin-top: 1vh;
+  font-size: 5vw;
+  font-weight: bold;
+  stop-opacity: unset;
 }
 
-.wd h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 1vw;
-  font-size: 1.3vw;
-  margin-top: 3vh;
-}
-
-.wd h2 {
-  text-transform: uppercase;
-  font-weight: 0.3vw;
-  font-size: 1vw;
+.box h2 {
+  font-size: 6vw;
+  font-weight: bold;
+  opacity: 3;
 }
 
 .gridcointainer {
@@ -48,3 +42,18 @@ body {
   width: 100%;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+
+.footer div{
+  color: antiquewhite;
+  text-align: center;
+  font-size: 1vw;
+} 
