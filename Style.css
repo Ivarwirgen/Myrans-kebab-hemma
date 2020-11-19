@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background-image: url(pizza.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.box {
+  width: 65vw;
+  float: right;
+  background-color: black;
+}
+
+.wd {
+  grid-area: main1;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  z-index: 2;
+}
+
+.wd h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 1vw;
+  font-size: 1.3vw;
+  margin-top: 3vh;
+}
+
+.wd h2 {
+  text-transform: uppercase;
+  font-weight: 0.3vw;
+  font-size: 1vw;
+}
+
+.gridcointainer {
+  display: grid;
+  grid-template-areas: 'nav nav nav'
+  'main1 main2 main3'
+  'footer footer1 footer';
+  width: 100%;
+}
+
